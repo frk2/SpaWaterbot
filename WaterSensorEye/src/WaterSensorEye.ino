@@ -16,8 +16,8 @@ int waterLevel = 1;
 unsigned long wakeupTime = 0;
 char meow[50];
 bool debug_mode = false;
-double lowmark = 505;
-double highmark = 375;
+double lowmark = 260;
+double highmark = 230;
 
 // setup() runs once, when the device is first turned on.
 void setup() {
